@@ -42,6 +42,12 @@ export type Project = {
   stack: string[];
   liveUrl?: string;
   repoUrl?: string;
+  /**
+   * Optional preview image for the home page card. Shown cropped to 16:9
+   * from the top edge, so put the recognisable part of the image at the top.
+   * Leave it out for a text-only card.
+   */
+  cover?: Shot;
   /** Screenshots shown side by side under the header, wide one first. */
   screenshots?: { shots: Shot[]; caption: string };
   sections: Section[];
@@ -61,6 +67,12 @@ export const projects: Project[] = [
     stack: ["Python", "Postgres", "Next.js", "Vercel"],
     liveUrl: "https://vikings-analytics.vercel.app",
     repoUrl: "https://github.com/eschee/vikings-analytics",
+    cover: {
+      src: "/projects/hatewatch/desktop.png",
+      alt: "Hatewatch showing the Vikings' playoff chances and which games to root for.",
+      width: 2880,
+      height: 1800,
+    },
     screenshots: {
       shots: [
         {
