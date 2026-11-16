@@ -55,35 +55,35 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "hatewatch",
-    title: "Hatewatch",
+    slug: "whotoroot",
+    title: "WhoToRoot",
     category: "nfl analytics",
     summary:
       "Ranks every NFL game by how much it moves the Vikings' playoff chances, using 100,000 simulated seasons.",
     intro:
-      "Every NFL Sunday, fans ask the same question: which other games should I care about? Hatewatch answers it with math instead of guesswork, ranking every game by how much it moves the Vikings' playoff chances.",
+      "Every NFL Sunday, fans ask the same question: which other games should I care about? WhoToRoot answers it with math instead of guesswork, ranking every game by how much it moves the Vikings' playoff chances.",
     role: "Solo: product, data, build",
     timeline: "November 2026",
     stack: ["Python", "Postgres", "Next.js", "Vercel"],
     liveUrl: "https://vikings-analytics.vercel.app",
     repoUrl: "https://github.com/eschee/vikings-analytics",
     cover: {
-      src: "/projects/hatewatch/desktop.png",
-      alt: "Hatewatch showing the Vikings' playoff chances and which games to root for.",
+      src: "/projects/whotoroot/desktop.png",
+      alt: "WhoToRoot showing the Vikings' playoff chances and which games to root for.",
       width: 2880,
       height: 1800,
     },
     screenshots: {
       shots: [
         {
-          src: "/projects/hatewatch/desktop.png",
-          alt: "Hatewatch on desktop: the Vikings' 72% playoff chance above their own game and a ranked list of other games to root for.",
+          src: "/projects/whotoroot/desktop.png",
+          alt: "WhoToRoot on desktop: the Vikings' 72% playoff chance above their own game and a ranked list of other games to root for.",
           width: 2880,
           height: 1800,
         },
         {
-          src: "/projects/hatewatch/phone.png",
-          alt: "Hatewatch on a phone: the same guide stacked in a single column.",
+          src: "/projects/whotoroot/phone.png",
+          alt: "WhoToRoot on a phone: the same guide stacked in a single column.",
           width: 780,
           height: 1688,
         },

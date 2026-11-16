@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: {
     default: "Thomas Scheel",
-    // Child pages set a title like "Hatewatch"; this turns it into
-    // "Hatewatch · Thomas Scheel" in the browser tab.
+    // Child pages set a title like "WhoToRoot"; this turns it into
+    // "WhoToRoot · Thomas Scheel" in the browser tab.
     template: "%s · Thomas Scheel",
   },
   description: "Projects by Thomas Scheel.",
